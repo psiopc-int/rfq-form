@@ -23,6 +23,10 @@
     <div class="card-body">
       <form id="customForm" class="needs-validation" novalidate>
         <div class="row g-3">
+          <div class="col-12">
+            <label for="products" class="form-label">Select or Add Products</label>
+            <select id="products" name="products" multiple placeholder="Select or add products..."></select>
+          </div>
           <div class="col-md-6">
             <label for="institution" class="form-label">Institution Name</label>
             <input id="institution" name="institution" type="text" class="form-control" required />
@@ -47,10 +51,7 @@
             <label for="contactnumber" class="form-label">Contact Number</label>
             <input id="contactnumber" name="contactnumber" type="text" class="form-control" required />
           </div>
-          <div class="col-12">
-            <label for="products" class="form-label">Select or Add Products</label>
-            <select id="products" name="products" multiple placeholder="Select or add products..."></select>
-          </div>
+          
         </div>
 
         <!-- Product Details Section -->
@@ -77,3 +78,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
