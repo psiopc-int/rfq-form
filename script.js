@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   async function loadProducts() {
     try {
-      const res = await fetch('https://n8n.srv1034022.hstgr.cloud/webhook/products-list');
+      const res = await fetch('https://n8n.srv1069938.hstgr.cloud/webhook/products-list');
       const data = await res.json();
 
       productsData = data;
@@ -110,3 +110,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 });
+
