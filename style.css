@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 10px;
+}
+
+.card-header {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.quantity-group {
+  background: #f1f3f5;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.quantity-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.quantity-item label {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}
