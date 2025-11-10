@@ -1,7 +1,7 @@
 body {
   background-color: #f8f9fa;
   padding: 2rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .card {
@@ -38,3 +38,4 @@ body {
   font-weight: 500;
   color: #333;
 }
+
