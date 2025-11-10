@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     try {
-      const res = await fetch('https://n8n.srv1069938.hstgr.cloud/webhook/quotation-request-form', {
+      const res = await fetch('https://n8n.srv1069938.hstgr.cloud/webhook-test/quotation-request-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -110,5 +110,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 });
+
 
 
